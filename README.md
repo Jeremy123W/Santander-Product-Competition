@@ -19,6 +19,8 @@ https://www.kaggle.com/c/santander-product-recommendation/data
 
 
 create_features_and_test_set.py -This script parses the entire training and test sets to create the features and labels
+
 income_by_age_and_nomprov.py- This script is used to map missing incomes to average incomes within select age groups and cities
+
 run_xgboost.py- This script runs a single xgboost model on 95% of the training data with a 5% CV set and then predicts the test set
 
